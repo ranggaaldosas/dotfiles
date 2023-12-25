@@ -1,0 +1,34 @@
+{
+    "workbench.iconTheme": "ayu",
+    "workbench.colorTheme": "Community Material Theme Ocean",
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": true,
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false,
+      "python": true
+    },
+    "editor.minimap.enabled": false,
+    "code-runner.runInTerminal": true,
+    "editor.largeFileOptimizations": false,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace, 'Fira Code'",
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font'",
+    "terminal.integrated.fontSize": 15,
+    "[typescript]": {
+      // for .ts files
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+      // for .tsx files
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "git.openRepositoryInParentFolders": "never"
+  }
+  
